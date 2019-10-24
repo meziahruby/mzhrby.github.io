@@ -1,3 +1,4 @@
-# Hi, my name is Meziah. Nice to meet you!
-I design and build software solutions for Cisco by combining my degree in Computer Science with my experience in human-centered design.
-When I'm not working, I like to travel and keep a visual diary on Instagram. I also like sharing my thoughts and stories about life, career growth, and personal development on Medium.
+# Hi, my name is Meziah Ruby. Nice to meet you!
+I work full-time as a Software Engineer for Cisco, developing across the stack for an internal platform in Commerce IT. Prior to working for Cisco, I was an undergrad student at UC Davis, where I majored in Computer Science (B.S.), minored in Communications, and fell in love with design thinking.
+
+This personal website was built with a Bootstrap 4 template by [InovatikThemes](https://inovatik.com/).
