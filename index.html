@@ -23,8 +23,8 @@
     <title>Meziah Ruby</title>
     
     <!-- Styles -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap" rel="stylesheet">
     <link href="css/bootstrap.css" rel="stylesheet">
     <link href="css/fontawesome-all.css" rel="stylesheet">
     <link href="css/swiper.css" rel="stylesheet">
@@ -35,113 +35,137 @@
     <link rel="icon" href="images/favicon.png">
 </head>
 <body data-spy="scroll" data-target=".fixed-top">
-    
-    <!-- Preloader -->
-	<div class="spinner-wrapper">
-        <div class="spinner">
-            <div class="bounce1"></div>
-            <div class="bounce2"></div>
-            <div class="bounce3"></div>
-        </div>
+
+    <nav class="sidenav">
+    	<div class="about-link"><a href="about.html">About me</a></div>
+    	<div class="work-link"><a href="work.html">What I do</a></div>
+    	<div class="work-link"><a href="process.html">How I work</a></div>
+    	<div class="hello-link"><a href="mailto:meziahcristobal@gmail.com">Say hello</a></div>
+    </nav>
+
+    <div>
+    	<div style="font-size: 2vw; font-family: Miriam Libre;
+    /* margin-top: 30vh; */
+    position: relative;
+    top: 35vh;
+    left: 20vw;
+    color: black;
+    line-height: normal;
+    width: 30vw;
+    vertical-align: top;
+    z-index: 99;">Hi, my name is <span style="color: #9B4AFB; font-weight: 700">Meziah Ruby</span>!<br>
+		<span style="font-size: 2vw;">I specialize in solving problems, from prototype to production code.</span></div>
+		<div style="    width: 30vw;
+    /* margin-right: 20vw; */
+    /* margin-top: 5vh; */
+    position: absolute;
+    top: 10vh;
+    right: 20vw;
+    /* right: 0vw; */
+    z-index: 1;
+    box-shadow: 10px 10px #FCB6D2;">
+    	<img src="assets/meziahruby.jpg" alt="Meziah Ruby's profile picture">
     </div>
-    <!-- end of preloader -->
+    </div>
 
+    <div class="container">
+		<div style="position: relative; top: 30vh;">
+	        <div class="row" style="width: 100%">
+	            <div class="col-lg-12">
+		            <h4>
+		          		I currently work for Cisco as a Front End Engineer + acting UI/UX Lead in the New Product Introduction team within Commerce IT.
+		        	</h4>
+			        <div class="row" style="margin-top: 2vw;">
+			        	<div class="col-lg-2"></div>
+			        	<div id="featured-proj-pic" class="col-lg-6">
+			        		<a class="col-lg-6" href="projects/swlicense.html"><img src="assets/project-swlicense.gif" class="homepage-feature-pic" alt="Short demo of the SW/License Tool"></a>
+			        	</div>
+			        	<div id="featured-proj-text" class="col-lg-4" style="padding-top: 5%;">
+			        		<h6>Featured Work:<h6>
+			        		<h5><a href="projects/swlicense.html">Software/License Offer Configuration Tool</a></h5>
+			        	</div>
+			        </div>
+	            </div> <!-- end of col -->
+	        </div> <!-- end of row -->
 
-    <!-- Header -->
-    <header id="header" class="header">
-        <div class="header-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-6">
-                        <div class="text-container">
-                            <h1>Hi, my name is Meziah Ruby!<br>
-                            	I love: <span id="js-rotating">full-stack development, design thinking, hiking, petting dogs, food-based travel</span></h1>
-                        </div>
-                    </div> <!-- end of col -->
-                    <div class="col-lg-6">
-                        <div class="image-container">
-                            <img class="img-fluid" src="assets/header-profile.png" alt="alternative-um">
-                        </div> <!-- end of image-container -->
-                    </div> <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of header-content -->
-    </header> <!-- end of header -->
-    <!-- end of header -->
+	       	<div class="row" style="margin-top: 50px; width: 100%">
+	            <div class="col-lg-12">
+		            <h4>
+		          		Outside of work, I volunteer as a web designer for non-profits,
+		        	</h4>
+			        <div class="row" style="margin-top: 2vw;">
+			        	<div class="col-lg-2"></div>
+			        	<div id="featured-proj-pic" class="col-lg-6">
+			        		<a class="col-lg-6" href="projects/f65.html"><img src="assets/project-f65.gif" class="homepage-feature-pic" alt="Before and After preview of the Foundation65 website remake"></a>
+			        	</div>
+			        	<div id="featured-proj-text" class="col-lg-4" style="padding-top: 5%;">
+			        		<h6>Featured Project:<h6>
+			        		<h5><a href="/">Foundation65 Website Redesign</a></h5>
+			        	</div>
+			        </div>
+	            </div> <!-- end of col -->
+	        </div> <!-- end of row -->
 
-    <!-- Footer -->
-    <div class="footer">
-        <div class="container">
-            <div class="row">
-            	<div class="col-lg-1"></div>
-                <div class="col-lg-5">
-                    <div class="footer-col">
-                        <h4>About me</h4>
-                        <p>First, let me clarify: (1) Meziah Ruby is my <i>first</i> name (read: I have two first names) and (2) Meziah is pronounced like MEE-sha. Sometimes I go by Misha; it's easier for baristas to spell. 😊<br>
-                        	<br>
-                        I work full-time as a Software Engineer for Cisco, developing across the stack for an internal platform in Commerce IT. Prior to working for Cisco, I was an undergrad student at UC Davis, where I majored in Computer Science (B.S.), minored in Communications, and fell in love with design thinking through Design for America.<br>
-                        <br>
-                        Outside of work, I love teaching design thinking, volunteering for organizations like Girls Who Code and Project Invent, and traveling with/to my boyfriend and friends.
+	       	<div class="row" style="margin-top: 50px; width: 100%">
+	            <div class="col-lg-12">
+		            <h4>
+		          		and a design thinking + tech mentor for students.
+		        	</h4>
+		        	<div class="row" style="margin-top: 2vw;">
+			        	<div class="col-lg-2"></div>
+			        	<div id="featured-proj-pic" class="col-lg-6">
+			        		<a class="col-lg-6" href="projects/drew.html"><img src="assets/project-drew.jpg" class="homepage-feature-pic" alt="Picture of an Arduino prototype"></a>
+			        	</div>
+			        	<div id="featured-proj-text" class="col-lg-4" style="padding-top: 5%;">
+			        		<h6>Featuring:<h6>
+			        		<h5><a href="/">Team DREW: five high school sophomores turned social entrepreneurs</a></h5>
+			        		<br>
+			        		<br>
+			        		<p class="small">Photo by Michael Cheung; logo by Team DREW</p>
+			        	</div>
+			        </div>
+	            </div> <!-- end of col -->
+	        </div> <!-- end of row -->
+	       	<div class="row" style="height: 40vh;"></div> <!-- end of filler row -->
+	 	</div>
 
-                        </p>
-                    </div>
-                </div> <!-- end of col -->
-                <div class="col-lg-1"></div>
-                <div class="col-lg-5">
-                    <div class="footer-col">
-                        <h4>Elsewhere on the 'net</h4>
-                        <span class="fa-stack">
-                            <a href="mailto:meziahcristobal@gmail.com">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fas fa-envelope fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://www.linkedin.com/in/meziah/">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-linkedin fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://www.instagram.com/meziahruby/">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-instagram fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://www.twitter.com/meziahruby/">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-twitter fa-stack-1x"></i>
-                            </a>
-                        </span>
-                        <span class="fa-stack">
-                            <a href="https://medium.com/moychoy">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-medium fa-stack-1x"></i>
-                            </a>
-                        </span>
-<!--                         <span class="fa-stack">
-                            <a href="https://www.youtube.com/channel/UCrwkKjLKpZbW2pQ3qioP3xA?">
-                                <i class="fas fa-circle fa-stack-2x"></i>
-                                <i class="fab fa-youtube fa-stack-1x"></i>
-                            </a>
-                        </span> -->
-                    </div> 
-                </div> <!-- end of col -->
-            </div> <!-- end of row -->
-        </div> <!-- end of container -->
-    </div> <!-- end of footer -->  
-    <!-- end of footer -->
+    </div> <!-- end of container -->
+
+	 <div class="social-links">
+        <h6>Elsewhere on the Internet:</h6>
+        <span class="fa-stack">
+            <a href="mailto:meziahcristobal@gmail.com">
+                <i class="fas fa-envelope fa-stack-1x"></i>
+            </a>
+        </span>
+        <span class="fa-stack">
+            <a href="https://www.linkedin.com/in/meziah/">
+                <i class="fab fa-linkedin fa-stack-1x"></i>
+            </a>
+        </span>
+        <span class="fa-stack">
+            <a href="https://www.instagram.com/meziahruby/">
+                <i class="fab fa-instagram fa-stack-1x"></i>
+            </a>
+        </span>
+        <span class="fa-stack">
+            <a href="https://www.twitter.com/meziahruby/">
+                <i class="fab fa-twitter fa-stack-1x"></i>
+            </a>
+        </span>
+        <span class="fa-stack">
+            <a href="https://medium.com/moychoy">
+                <i class="fab fa-medium fa-stack-1x"></i>
+            </a>
+        </span>
+    </div>
+
     	
     <!-- Scripts -->
     <script src="js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
-    <script src="js/popper.min.js"></script> <!-- Popper tooltip library for Bootstrap -->
     <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
     <script src="js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
-    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
-    <script src="js/jquery.magnific-popup.js"></script> <!-- Magnific Popup for lightboxes -->
-    <script src="js/morphext.min.js"></script> <!-- Morphtext rotating text in the header -->
-    <script src="js/validator.min.js"></script> <!-- Validator.js - Bootstrap plugin that validates forms -->
     <script src="js/scripts.js"></script> <!-- Custom scripts -->
+
 </body>
 </html>

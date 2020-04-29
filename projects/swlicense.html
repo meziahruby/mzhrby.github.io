@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Meziah (MEE-sha) Ruby is a software engineer in the Silicon Valley.
+        When she isn't coding, she loves facilitating design thinking workshops, mentoring high school students (through programs like Project Invent),
+        and traveling (mostly to eat good food). She graduated with a Computer Science degree and minor in Communications from UC Davis.">
+    <meta name="author" content="Meziah Ruby">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on LinkedIn, Facebook, Google+ -->
+    <meta property="og:site_name" content="Meziah Ruby" /> <!-- website name -->
+    <meta property="og:site" content="meziahruby.me" /> <!-- website link -->
+    <meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+    <meta property="og:type" content="article" />
+
+    <!-- Website Title -->
+    <title>Meziah Ruby</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Miriam+Libre:wght@400;700&display=swap" rel="stylesheet">
+    <link href="../css/bootstrap.css" rel="stylesheet">
+    <link href="../css/fontawesome-all.css" rel="stylesheet">
+    <link href="../css/swiper.css" rel="stylesheet">
+    <link href="../css/magnific-popup.css" rel="stylesheet">
+    <link href="../css/styles.css" rel="stylesheet">
+    
+    <!-- Favicon  -->
+    <link rel="icon" href="assets/favicon.png">
+</head>
+<body data-spy="scroll" data-target=".fixed-top">
+
+    <topnav class="topnav">
+        <span class="home-link"><a href="../index.html">Homepage 🏠</a></span>
+        <span class="about-link"><a href="../about.html">About me</a></span> 
+        <span class="work-link"><a href="../work.html">What I do</a></span>
+        <span class="process-link"><a href="../process.html">How I work</a></span>
+        <span class="hello-link"><a href="mailto:meziahcristobal@gmail.com">Say hello</a></span>
+    </topnav>
+
+    <div style="margin-top: 15vh;">
+        <div class="row" style="width: 100%;">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-3">
+                <h6>Featured work:</h6>
+                <h3>Software/License Offer Configuration Tool</h3>
+                <br>
+                <b>The problem:</b><br>
+                Product Managers are currently passing Excel sheets back and forth via email to collaborate on offer configurations. This results in a lot of churn due to miscommunicated validations, typos, and just outright missed emails.<br>
+                <br>
+                <b>The goal:</b><br>
+                A dashboard-like tool where Product Managers and Business Unit Project Managers (Admin-type users) can define and view any pending offer configurations.
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-6">
+                <img src="../assets/project-swlicense.gif" alt="Short demo of the SW/License Tool" class="subpage-feature-pic">
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+
+        <div class="row" style="width: 100%; margin-top: 7vh; padding: 0vh 4vw;">
+            <div class="col-lg-12" style="padding: 5vh 7vw;">
+                <div class="row subpage-feature-box">
+                    <div class="col-lg-4">
+                        <h5>Users and Use Cases</h5>
+                        <b>Product Managers (PM)</b>: the primary user; they want an easy way to define configurations for the offer (main use) and to run reports that shows configuration details and statuses for their entire product family<br>
+                        <br>
+                        <b>Business Unit Project Managers (BUPM)</b>: the admin-type user; they want to easily see the configuration details and statuses of their entire product family; they will sometimes define configurations themselves if the primary PM is unavailable 
+                    </div>
+                    <div class="col-lg-4" style="padding: 0vh 2vw;">
+                        <h5>Feature List</h5>
+                        There are four screens that in turn correspond to the 4 main use cases:
+                        <br><br>
+                        <ol>
+                            <li><b>Dashboard:</b> Gives an overview of all pending Offer Configurations; Allows user to take action from this page easily</li>
+                            <li><b>Configuration Definition:</b> Where the user configures a PID by filling out a form with built-in validations specific to that PID's attributes</li>
+                            <li><b>Reports:</b> Allows users to generate a report that shows the status of each Offer in terms of PID configuration completion</li>
+                            <li><b>Master Data Management:</b> Allows admin users to modify the Configuration Definition page's list of values, without the need for IT intervention</li>
+                        </ol>
+                    </div>
+                    <div class="col-lg-4" style="padding: 0vh 2vw;">
+                        <h5>My role</h5>
+                        I created the prototypes used in the final requirements review and developer commit meetings.<br>
+                        <br>
+                        I was also the UI Engineer who developed the HTML/CSS and the Front-End Engineer who integrated the REST API's provided by my Back-End Engineer teammate.<br>
+                        <br>
+                        <br>
+                        <h5>Tools used</h5>
+                        <i>Prototype:</i> Sketch<br>
+                        <i>Code:</i> Angular, HTML/CSS, Java, Mongo, Postman<br>
+                        <br>
+                        <br>
+                        <h5>Project Status</h5>
+                        Released to production
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row" style="width: 100%; margin-top: 7vh;">
+            <div class="col-lg-12" style="text-align: center">
+                <h3>The Process</h3>
+            </div>
+        </div>
+
+        <div class="row" style="width: 100%; margin-top: 7vh">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4">
+                <h4>Mockups to Prototypes</h4>
+                <br>
+                As with any good tool, the interface was simple but the services and logic underneath were complex. I spent the first couple days of the project just trying to understand the use cases and the many attributes we were required to show.<br>
+                <br>
+                Each Offer has <i>n</i> number of PIDs ("Product ID", think "SKU" or parts) to be configured, and each PID had over two dozen attributes. Each one was a necessary reference point for the PM defining the configurations, so there was no way to reduce the list. (Trust me, I tried.)<br>
+                <br>
+                With the help of the IT Analyst, I went through each attribute to figure out whether it should be shown by default, or if it could be stashed away in a modal or "Hide/Show Column".<br>
+                <br>
+                Once I figured that out, I sketched some mockups on paper.<br>
+                <br>
+                The IT Analyst and I had several short meetings over the next couple of days, where I would bring my sketches to his desk so we can discuss my proposed approach. The paper sketches allowed me to iterate quickly on his feedback, so I was able to move to digital prototyping after just a couple days of prototyping on paper.<br>
+                <br>
+                In total, I prototyped 40+ artboards in Sketch (including intermediary steps, so the prototype can be interactive).<br>
+                <br>
+                The next step was to give the prototype to the IT Analyst so they could gather feedback from the stakeholders.<br>
+                <br>
+                Fortunately, the business stakeholders were quite pleased with the prototypes. They had two main feedback: (1) change the sidebar navigation to a dropdown menu (it's okay if their user will have that additional click), so that (2) as many attributes as possible could be shown in the dashboard.<br>
+                <br>
+                I only had to update one screen before starting my work in Angular.
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-5">
+                <img src="../assets/swlicense-prototype.jpg" alt="Early mockup of the tool's dashboard" class="subpage-feature-pic">
+                <p class="small">A scan of one of the 30+ paper mockups I had for this project. (Please excuse the poor penmanship and the illegible annotations. I promise that my point got across to the IT Analyst despite those.)</p><br>
+                <img src="../assets/swlicense-sketch.png" alt="Screenshot of a zoomed out Sketch screen with prototypes and user flow arrows" class="subpage-feature-pic">
+                <p class="small">A zoomed out screenshout of my Sketch file for this project.</p>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+
+        <div class="row" style="width: 100%; margin-top: 10vh">
+            <div class="col-lg-1"></div>
+            <div class="col-lg-4">
+                <h4>Prototype to Production Code</h4>
+                <br>
+                <h5>Prep Work</h5>
+                While I was waiting for feedback on the prototypes, I worked with the Team Lead to design the services architecture in the back-end. I gave him my requirements from the client-side in terms of data fetches, and he helped determine how many Mongo collections were needed.<br>
+                <br>
+                It took the better part of a day to synthesize all of this information and mock the REST services in a requirements document, but it later proved to be well worth the effort. The Back-End Engineer I worked with was based in India, so we used this document as a way to be on the same page while developing separately.<br>
+                <br>
+                <br>
+                <h5>UI Features Implemented</h5>
+                <ul>
+                    <li>Lazy-loaded, single-page Angular app</li>
+                    <li>Search Filters across many subcomponents (Referred to by the users as "grid search" in the Dashboard)</li>
+                    <li>User role authentication to determine which components are viewable/actionable by the user</li>
+                    <li>8 different modals for use cases like: viewing additional attributes, performing a multi-select action, previewing a configuration</li>
+                    <li>"Show/Hide Columns" functionality on Dashboard</li>
+                    <li>Reactive NgForm for the Configuration Definition page</li>
+                    <li>Accordion UI component (Made to be reusable across the platform, not just this tool)</li>
+                </ul>
+                <br>
+                <br>
+                <h5>Challenges During Development</h5>
+                Passing fetched data between components were an issue at times, especially when the staging environments were slow. When the API calls would timeout, the UI would get stuck "loading". To resolve this, I made full use of Angular's Observables. (Every sub-component had at least 3. When I have downtime, I'd like to revisit this and refactor.)<br>
+                <br>
+                I also had to refactor the form validations for the Configuration Definiton page a few times during QA and Business Acceptance Testing (BAT), because either (1) the tool would hit the max call stackduring stress testing, or (2) the BAT team would find a corner case that wasn't previously captured in the requirements. What truly helped resolve this was the BAT team giving a more streamlined list of validations for me to implement. After that, the form passed stress testing and BAT was finished.
+                
+            </div>
+            <div class="col-lg-1"></div>
+            <div class="col-lg-5">
+                <img src="../assets/swlicense-screenshot.png" alt="Screenshot of the live tool's dashboard" class="subpage-feature-pic">
+                <p class="small">Screenshot of the Dashboard, where most of the listed UI features were implemented to the user's benefit. For example, you can see from this picture the Show/Hide Columns, Action buttons, and other links that trigger modals.</p><br>
+
+                <img src="../assets/swlicense-reports-screenshot.png" alt="Screenshot of the tool's report page" class="subpage-feature-pic">
+                <p class="small">Screenshot of the Report, where the user can select their report parameters from dropdowns capable of search and auto-suggest.</p>
+            </div>
+            <div class="col-lg-1"></div>
+        </div>
+
+        <div class="row" style="width: 100%; margin-top: 10vh;">
+            <div class="col-lg-12" style="text-align: center">
+                <h3>The Takeaways</h3>
+            </div>
+        </div>
+
+        <div class="row" style="width: 100%; margin-top: 5vh; padding: 0vh 4vw;">
+            <div class="col-lg-12" style="padding: 0vh 7vw;">
+                <div class="row subpage-feature-box">
+                    <div class="col-lg-4">
+                        <h5>Before starting development, mocking API request and responses are a must</h5>
+                        I cannot stress enough how much the requirements document helped us move faster, especially when timezones made it hard to discuss. I'm not sure what the practice is outside of my team, but this is something that should be done by every team. I'll be giving this feedback to the IT Analyst as well; I think the expected request and response should be included in the user stories.
+                    </div>
+                    <div class="col-lg-4" style="padding: 0vh 2vw;">
+                        <h5>Sometimes, even the business stakeholder doesn't really know what their user wants</h5>
+                        IT requirements are often given by business stakeholders who represent a certain business unit or group of users. We rely a lot on them (and in turn on the IT Analyst they interface with), but even they had missed use cases and given us outdated validation rules to implement.
+                    </div>
+                    <div class="col-lg-4" style="padding: 0vh 2vw;">
+                        <h5>Observables aren't <i>that</i> scary</h5>
+                        To be honest, I've always shyed away from using Observables before because I felt it was too difficult to master. (I much preferred straight-forward Input and Output.) This project more than mandated its use, so I got my fair share of practice. I'll be a lot less scared and more prepared to use it next time.<br>
+                        <br>
+                        <p class="small">Note: I can only share a few pictures on my website, but please feel free to ask me further questions about the project if you're interested. I'd love to share what I could!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div> <!-- End body -->
+
+    <div class="social-links">
+        <h6>Elsewhere on the Internet:</h6>
+        <span class="fa-stack">
+            <a href="mailto:meziahcristobal@gmail.com">
+                <i class="fas fa-envelope fa-stack-1x"></i>
+            </a>
+        </span>
+        <span class="fa-stack">
+            <a href="https://www.linkedin.com/in/meziah/">
+                <i class="fab fa-linkedin fa-stack-1x"></i>
+            </a>
+        </span>
+        <span class="fa-stack">
+            <a href="https://www.instagram.com/meziahruby/">
+                <i class="fab fa-instagram fa-stack-1x"></i>
+            </a>
+        </span>
+        <span class="fa-stack">
+            <a href="https://www.twitter.com/meziahruby/">
+                <i class="fab fa-twitter fa-stack-1x"></i>
+            </a>
+        </span>
+        <span class="fa-stack">
+            <a href="https://medium.com/moychoy">
+                <i class="fab fa-medium fa-stack-1x"></i>
+            </a>
+        </span>
+    </div>
+
+
+
+    <!-- Scripts -->
+    <script src="../js/jquery.min.js"></script> <!-- jQuery for Bootstrap's JavaScript plugins -->
+    <script src="../js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="../js/jquery.easing.min.js"></script> <!-- jQuery Easing for smooth scrolling between anchors -->
+    <script src="../js/scripts.js"></script> <!-- Custom scripts -->
+
+</body>
+</html>
