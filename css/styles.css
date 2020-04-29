@@ -123,6 +123,27 @@ li {
     border-radius: 10px;
 }
 
+.header {
+	position: relative;
+    top: 35vh;
+    left: 20vw;
+    color: black;
+    line-height: normal;
+    width: 30vw;
+    vertical-align: top;
+    z-index: 99;
+    font: 400 1.75rem/2.125rem "Miriam Libre", sans-serif;
+}
+
+.header-pic {
+	width: 30%;
+    position: absolute;
+    top: 10vh;
+    right: 20vw;
+    z-index: 1;
+    box-shadow: 10px 10px #FCB6D2;
+}
+
 .homepage-feature-pic {
 	box-shadow: 5px 5px #FCB6D2;
 	border: 1px solid #FCB6D2
@@ -224,9 +245,9 @@ li {
 	content: ' 💡';
 }
 
-.sidenav .hello-link:hover a:after,
-.topnav .hello-link a:after {
-	content: ' 👋';
+.sidenav .resume-link:hover a:after,
+.topnav .resume-link a:after {
+	content: ' 📝';
 }
 
 .home-link: a:hover {
@@ -251,26 +272,116 @@ li {
 /*****************************/
 /*     20. Media Queries     */
 /*****************************/	
+
+@media (max-width: 600px) {
+	.sidenav {
+		text-align: center;
+	    padding: 2vh 0vw;
+	    position: fixed;
+	    z-index: 99;
+	    width: 100vw;
+	    top: 0;
+	}
+
+	.sidenav.scrolled {
+		text-align: center;
+	    padding: 2vh 0vw;
+	    position: fixed;
+	    z-index: 99;
+	    width: 100vw;
+	    background: #fff;
+	    top: 0;
+    	border-bottom: 1px solid #FCB6D2;
+	}
+
+	.sidenav a, .sidenav a:active, .sidenav a:visited {
+		font: 400 11px "Open Sans", sans-serif;
+		text-decoration: none;
+		color: #2C2C2C;
+	}
+
+	.sidenav a:hover {
+		color: #9B4AFB;
+	}
+
+	.topnav a {
+		padding-right: 2vw;
+		font-size: 11px;
+	}
+
+	.topnav a:hover {
+		font: 400 11px "Open Sans", sans-serif;
+		text-decoration: none;
+		color: #9B4AFB;
+	}
+
+	.topnav a.active-page {
+		font: 700 11px "Open Sans", sans-serif;
+		color: #9B4AFB;
+	}
+
+	.container {
+		margin-top: 20vh;
+	}
+
+	.header {
+		position: relative;
+	    top: 25vh;
+	    left: 5vw;
+	    color: black;
+	    line-height: normal;
+	    vertical-align: top;
+	    z-index: 99;
+	    font: 400 18px "Miriam Libre", sans-serif;
+	}
+
+	.header-pic {
+		width: 50%;
+	    position: absolute;
+	    top: 15vh;
+	    right: 5vw;
+	    z-index: 1;
+	    box-shadow: 10px 10px #FCB6D2;
+	}
+
+	body, p {
+		font: 400 12px "Open Sans", sans-serif;
+		color: #2C2C2C;
+	}
+
+	p.small {
+		font: 400 10px "Open Sans", sans-serif;
+		color: #2C2C2C;
+	}
+
+	h3 {
+		color: #2C2C2C;
+		font: 400 18px "Miriam Libre", sans-serif;
+	}
+
+	h4 {
+		color: #2C2C2C;
+		font: 400 16px "Miriam Libre", sans-serif;
+	}
+
+	h5 {
+		color: #2C2C2C;
+		font: 400 14px "Miriam Libre", sans-serif;
+	}
+
+	h6 {
+		color: #2C2C2C;
+		font: 400 13px "Miriam Libre", sans-serif;
+	}
+
+
+}
 /* Min-width width 768px */
 @media (min-width: 768px) {
 	
 	/* General Styles */
-	.p-heading {
-		width: 85%;
-		margin-right: auto;
-		margin-left: auto;
-	}
 
-	h1 {
-		font: 700 3.25rem/3.75rem "Montserrat", sans-serif;
-	}
 	/* end of general styles */
-
-	/* Header */
-	.header .header-content {
-		/*padding-top: 11rem;*/
-	}
-	/* end of header */
 
 }
 /* end of min-width width 768px */
@@ -280,23 +391,9 @@ li {
 @media (min-width: 992px) {
 
 	/* General Styles */
-	.p-heading {
-		width: 65%;
-	}
+
 	/* end of general styles */
 
-
-	/* Header */
-	.header .header-content {
-		/*padding-top: 13rem;*/
-		padding-bottom: 10rem;
-		text-align: left;
-	}
-
-	.header .text-container {
-		margin-top: 6.5rem;
-	}
-	/* end of header */
 }
 /* end of min-width width 992px */
 
@@ -313,16 +410,5 @@ li {
 	}
 	/* end of general styles */
 
-
-	/* Header */
-	.header .text-container {
-		/*margin-top: 7.5rem;*/
-		margin-left: 2.5rem;
-	}
-
-	.header .image-container {
-		margin-left: 3rem;
-	}
-	/* end of header */
 }
 /* end of min-width width 1200px */
